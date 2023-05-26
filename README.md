@@ -5,14 +5,14 @@ This notebook uses the "10 Big Cats of the Wild" Dataset from [kaggle](https://w
 The accuracy on the training data was 98% and the accuracy on the testing data was 100%. Below you can see the loss and accuracy curves, as well as a confusion matrix:
 
 ### Accuracy Curve:
-![acc](/CNN_Big_Cat_Classification/images/accuracy.png)
+![acc](images/accuracy.png)
 
 ### Loss Curve:
-![loss](/CNN_Big_Cat_Classification/images/loss.png)
+![loss](images/loss.png)
 
 ### Confusion Matrix:
-![CM](/CNN_Big_Cat_Classification/images/matrix.png)
+![CM](images/matrix.png)
 
 ---
 Finally I also created a very basic front end application in the 'app' notebook using Flask. The app allows you to insert a photo into it, which is then preprocessed and fed into the CNN that was built and makes a prediction on the animal. Below is a picture of the front end after passing a picture of a Lion to the model.
-![frontend](/CNN_Big_Cat_Classification/images/Capture.PNG)
+![frontend](images/Capture.PNG)
